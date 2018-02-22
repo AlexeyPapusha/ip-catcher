@@ -3,7 +3,7 @@ package ip.catcher
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class SomeLinkControllerSpec extends Specification implements ControllerUnitTest<SomeLinkController> {
+class AddressListControllerSpec extends Specification implements ControllerUnitTest<AddressListController> {
 
     def setup() {
     }

@@ -11,6 +11,8 @@ class AddressListService {
         a.request = request
         a.date = date
         a.save()
+
+        return  a
     }
     def EraseList(){
         AddressList.executeUpdate('delete from AddressList')

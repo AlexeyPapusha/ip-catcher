@@ -12,6 +12,17 @@
 </head>
 
 <body>
-
+<table>
+    <tr>
+        <th>IP</th>
+        <th>Request</th>
+        <th>Date</th>
+    </tr>
+        <tr>
+            <td>${addressList.address}</td>
+            <td>${addressList.request}</td>
+            <td>${addressList.date}</td>
+        </tr>
+</table>
 </body>
 </html>

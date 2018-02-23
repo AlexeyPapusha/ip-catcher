@@ -11,6 +11,7 @@ class UrlMappings {
 
         "/"(view: "/index")
         "/list"(controller: "addressList", action: "list")
+
         get "/da/eto/ochen/josskaya/ssilka/"(controller: "addressList", action: "index")
         post "/da/eto/ochen/josskaya/ssilka/"(controller: "addressList", action: "index")
         put "/da/eto/ochen/josskaya/ssilka/"(controller: "addressList", action: "index")

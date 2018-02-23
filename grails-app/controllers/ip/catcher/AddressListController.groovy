@@ -8,7 +8,7 @@ class AddressListController {
         def date = new Date()
         addressListService.AddAddress(address, request, date)
         def addressList = AddressList.list()
-        [addressList: addressList]
+        render(view: "list", model: [addressList: addressList])
     }
     def delete(){
         addressListService.EraseList()

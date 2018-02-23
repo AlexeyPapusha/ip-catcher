@@ -6,7 +6,8 @@ class AddressListController {
         def address = request.getRemoteAddr()
         def request = request.getMethod()
         def date = new Date()
-        def addressList = addressListService.AddAddress(address, request, date)
+        addressListService.AddAddress(address, request, date)
+        def addressList = AddressList.list()
         [addressList: addressList]
     }
     def delete(){

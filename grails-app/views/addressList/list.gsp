@@ -23,7 +23,7 @@
         <tr>
             <td>${a.address}</td>
             <td>${a.request}</td>
-            <td>${a.date}</td>
+            <td><g:formatDate date="${a.date}" type="datetime"/></td>
         </tr>
     </g:each>
 </table>
